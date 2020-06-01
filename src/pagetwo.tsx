@@ -1,17 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './pagetwo.css';
 
-function App() {
+function pagetwo() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+        <div className="pagetwo">
+            <header className="pagetwo-header">
+                <img src={logo} className="pagetwo-logo" alt="logo" />
                 <p>
                     Ciężki orzech do zgryzienia jest to.
                 </p>
+                <p>
+                    Chyba muszę się pouczyć reacta.
+                </p>
                 <a
-                    className="App-link"
+                    className="pagetwo-link"
                     href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -22,5 +25,4 @@ function App() {
         </div>
     );
 }
-
-export default App;
+export default pagetwo();

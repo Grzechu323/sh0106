@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://www.wykop.pl/cdn/c3201142/comment_TztA5k0NBR6a18E1ogvPgmB0afExVX8A.jpg" className="App-logo" alt="logo" />
         <p>
           Nie umiem w react. Umiem w Xamarin Android.
         </p>
